@@ -140,8 +140,46 @@
     padding: 6px 24px;
     margin: 0 auto;
 }
-
-
+#services-tabs ul li.r-tabs-state-active a{
+    color: #5c9320;
+    font-weight: 700;
+    border-bottom: 3px solid #5c9320;
+}
+.service-tab h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 0 0 20px 0;
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+}
+.service-tab h3{
+    font-size: 22px;
+    text-align: center;
+}
+.service-tab .service-tab-bg{
+    background-color: #fff;
+    padding: 25px 15px;
+    min-height: 350px;
+}
+.service-tab .service-tab-bg p{
+    font-size: 14px;
+    text-align: center;
+}
+.service-tab .service-tab-bg .btn-general{
+    font-family: 'Raleway',sans-serif;
+    border-radius: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 6px 23px;
+    transition: all .5s;
+    position: absolute;
+    top: 70%;
+    left: -10%;
+}
+#services-tabs a{
+    margin-left: 270px;
+}
 /******************************************************************************************************************************************************************
                                                         TESTIMONIAL SECTION
 ******************************************************************************************************************************************************************/
@@ -237,19 +275,6 @@
     font-size: 10px;
     margin-left: 210px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /******************************************************************************************************************************************************************
